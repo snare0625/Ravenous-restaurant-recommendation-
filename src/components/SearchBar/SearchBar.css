@@ -1,0 +1,104 @@
+/* Search section */
+.search-section {
+    background-image: url('../SearchBar/background_search_desktop.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+  }
+
+  /* Search Options Section */
+  .search-options {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+  }
+
+  /* Search option content */
+  .search-options-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .search-options-text:hover {
+    color: #d1d0cf;
+  }
+
+/* White line */
+.white-line {
+    border: none;
+    background-color: white;
+    height: 2px;
+    width: 650px;
+    margin-top: 12px;
+    margin-bottom: 45px;
+}
+
+/* Search-Bars */
+.search-bars {
+    display: flex;
+    gap: 40px;
+}
+
+/* Search-bar-wrap */
+.search-bar-wrap {
+    width: 430px;
+}
+
+/* Search */
+.search {
+    width: 100%;
+    display: flex;
+}
+
+/* business-search, location-search */
+.business-search, .location-search {
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    color: #403f3d;
+    width: 100%;
+}
+
+/* form */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+  
+/* button */
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b59410;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 60px;
+}
+
+button:hover {
+    background-color: #a37312;
+}
+
+/* Selected option */
+.selected {
+    color: #e1b16e;
+}
